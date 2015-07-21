@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_header">Web凳子君</string>
+    <string name="app_name">Web_凳子君</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lead_page">LeadPage</string>
+    <string name="dzr_leadpage_appTitle">Web_凳子君</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="title_activity_articles_list">ArticlesList</string>
+    <string name="title_activity_article">Article</string>
+    <string name="dzr_article_content">在网页中嵌入动画，过去比较流行采用Falsh、Java Applet和微软的Silv
+        erLight，但他们的网页安全性、兼容性、难操作性以及文件的大小等缺陷让很多Web开发者又爱又恨。Gif依旧是
+        个不错的选择，但遗憾的是并不能用DOM操控其中的元素。自从有了SVG、HTML5和CSS3，一些简单的平面动画的实
+        现变得方便和简单，虽然他们在一些方面譬如兼容性和可操作性等依然未能完全尽人意，但是足以让Web开发者兴奋
+        不已，于是“优雅降级”和“渐进增强”等思想大行其道。在Web绘图方面比较NB的还有WebGL，它可以在页面中渲染出
+        炫酷的三维动画图，但其原生的接口学习曲线较陡，而且WebGL开发人员需要一定的图形学基础，入门门槛较高，于
+        是，一些封装了WebGL原生接口的框架层出不穷，其中最有名的应该要数three.js。本文准备以SVG和JavaScript做
+        一个比较炫酷的DEMO，让浏览器自动渲染出满天星辰。（不要问我IE8及其以下的浏览器啥都
+        木有加载出来，这是因为SVG只能兼容IE9以上和其他主流浏览器。然而这并不能阻挡SVG的魅力~）</string>
+    <string name="title_activity_about_me">AboutMe</string>
+    <string name="title_activity_works">Works</string>
+    <string name="title_activity_view_page_test">ViewPage_test</string>
+    <string name="title_activity_webview_test">WebviewTest</string>
+    <string name="title_activity_login_in_test">LoginInTest</string>
+    <string name="title_activity_my_test">MyTest</string>
+
+</resources>

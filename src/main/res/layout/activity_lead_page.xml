@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_leadpage"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_leadpage_logo"
+        android:id="@+id/dzr_leadPage_logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dzr_leadPage_title"
+        android:text="Web_凳子君"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/dzr_leadPage_logo"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dzr_leadPage_subTitle"
+        android:text="——热爱前端，挥洒热汗~"
+        android:layout_below="@id/dzr_leadPage_title"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:textColor="#fff"/>
+</RelativeLayout>

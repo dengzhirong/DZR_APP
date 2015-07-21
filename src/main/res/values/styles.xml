@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="dzr_app_theme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- ActionBar主题修改 -->
+        <item name="actionBarStyle">@style/dzr_actionBar</item>
+        <!-- 状态栏透明背景 -->
+        <!--<item name="windowTranslucentStatus">true</item>-->
+        <!--<item name="windowTranslucentNavigation">true</item>-->
+
+        <!-- 默认Activity跳转动画 -->
+        <item name="android:windowAnimationStyle">@style/default_animation</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- ActionBar颜色修改 -->
+    <style name="dzr_actionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/dzr_color_actionBar</item>
+    </style>
+    <style name="dzr_articleList">
+    </style>
+
+    <!-- 默认Activity跳转动画 -->
+    <style name="default_animation" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/abc_slide_out_bottom</item>
+        <item name="android:activityCloseEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:activityCloseExitAnimation">@anim/abc_slide_out_bottom</item>
+    </style>
+    <!-- 底部菜单栏子组件布局 -->
+    <style name="style_footer_munu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#aaa</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- 首页banner中“加关注”和“写评论”的样式 -->
+    <style name="style_mainPage_banner">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+    <!-- 关于作者页子控件布局样式 -->
+    <style name="style_author_items">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+
+
+</resources>
